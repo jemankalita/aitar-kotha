@@ -99,7 +99,9 @@ def chat(
 
 
 def _candidate_list(plants: Sequence[Plant]) -> str:
-    return "\n".join(f"- {p.id}: {p.english} ({p.scientific}). {p.look_for}" for p in plants)
+    # Names only: small local vision models know plants by species, and 43 full descriptions
+    # plus the image overflow a 4k context window (slow, and the end of the list gets cut off).
+    return "\n".join(f"- {p.id}: {p.english} ({p.scientific})" for p in plants)
 
 
 def _identify_prompt(plants: Sequence[Plant]) -> str:
