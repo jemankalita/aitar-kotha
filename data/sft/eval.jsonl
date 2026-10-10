@@ -1,0 +1,172 @@
+{"question": "Koka told me to look for bogori today. What is it?", "expected_id": "bogori", "kind": "plant"}
+{"question": "What do Assamese people call Indian jujube?", "expected_id": "bogori", "kind": "plant"}
+{"question": "বগৰীৰ বিষয়ে কোৱাচোন।", "expected_id": "bogori", "kind": "plant"}
+{"question": "What is Ziziphus mauritiana in Assamese?", "expected_id": "bogori", "kind": "plant"}
+{"question": "Koka told me to look for amlokhi today. What is it?", "expected_id": "amlokhi", "kind": "plant"}
+{"question": "What do Assamese people call Indian gooseberry?", "expected_id": "amlokhi", "kind": "plant"}
+{"question": "আমলখিৰ বিষয়ে কোৱাচোন।", "expected_id": "amlokhi", "kind": "plant"}
+{"question": "What is Phyllanthus emblica in Assamese?", "expected_id": "amlokhi", "kind": "plant"}
+{"question": "Koka told me to look for ou tenga today. What is it?", "expected_id": "ou_tenga", "kind": "plant"}
+{"question": "What do Assamese people call Elephant apple?", "expected_id": "ou_tenga", "kind": "plant"}
+{"question": "ঔ টেঙাৰ বিষয়ে কোৱাচোন।", "expected_id": "ou_tenga", "kind": "plant"}
+{"question": "What is Dillenia indica in Assamese?", "expected_id": "ou_tenga", "kind": "plant"}
+{"question": "Koka told me to look for kordoi today. What is it?", "expected_id": "kordoi", "kind": "plant"}
+{"question": "What do Assamese people call Star fruit?", "expected_id": "kordoi", "kind": "plant"}
+{"question": "কৰ্দৈৰ বিষয়ে কোৱাচোন।", "expected_id": "kordoi", "kind": "plant"}
+{"question": "What is Averrhoa carambola in Assamese?", "expected_id": "kordoi", "kind": "plant"}
+{"question": "Koka told me to look for leteku today. What is it?", "expected_id": "leteku", "kind": "plant"}
+{"question": "What do Assamese people call Burmese grape?", "expected_id": "leteku", "kind": "plant"}
+{"question": "লেটেকুৰ বিষয়ে কোৱাচোন।", "expected_id": "leteku", "kind": "plant"}
+{"question": "What is Baccaurea ramiflora in Assamese?", "expected_id": "leteku", "kind": "plant"}
+{"question": "Koka told me to look for poniol today. What is it?", "expected_id": "poniol", "kind": "plant"}
+{"question": "What do Assamese people call Coffee plum?", "expected_id": "poniol", "kind": "plant"}
+{"question": "পনিয়লৰ বিষয়ে কোৱাচোন।", "expected_id": "poniol", "kind": "plant"}
+{"question": "What is Flacourtia jangomas in Assamese?", "expected_id": "poniol", "kind": "plant"}
+{"question": "Koka told me to look for jolphai today. What is it?", "expected_id": "jolphai", "kind": "plant"}
+{"question": "What do Assamese people call Indian olive?", "expected_id": "jolphai", "kind": "plant"}
+{"question": "জলফাইৰ বিষয়ে কোৱাচোন।", "expected_id": "jolphai", "kind": "plant"}
+{"question": "What is Elaeocarpus serratus in Assamese?", "expected_id": "jolphai", "kind": "plant"}
+{"question": "Koka told me to look for thekera today. What is it?", "expected_id": "thekera", "kind": "plant"}
+{"question": "What do Assamese people call Garcinia (thekera)?", "expected_id": "thekera", "kind": "plant"}
+{"question": "থেকেৰাৰ বিষয়ে কোৱাচোন।", "expected_id": "thekera", "kind": "plant"}
+{"question": "What is Garcinia pedunculata in Assamese?", "expected_id": "thekera", "kind": "plant"}
+{"question": "Koka told me to look for kaji nemu today. What is it?", "expected_id": "kaji_nemu", "kind": "plant"}
+{"question": "What do Assamese people call Assam lemon?", "expected_id": "kaji_nemu", "kind": "plant"}
+{"question": "কাজী নেমুৰ বিষয়ে কোৱাচোন।", "expected_id": "kaji_nemu", "kind": "plant"}
+{"question": "What is Citrus limon in Assamese?", "expected_id": "kaji_nemu", "kind": "plant"}
+{"question": "Koka told me to look for bhut jolokia today. What is it?", "expected_id": "bhut_jolokia", "kind": "plant"}
+{"question": "What do Assamese people call Ghost pepper?", "expected_id": "bhut_jolokia", "kind": "plant"}
+{"question": "ভূত জলকীয়াৰ বিষয়ে কোৱাচোন।", "expected_id": "bhut_jolokia", "kind": "plant"}
+{"question": "What is Capsicum chinense in Assamese?", "expected_id": "bhut_jolokia", "kind": "plant"}
+{"question": "Koka told me to look for tulsi today. What is it?", "expected_id": "tulsi", "kind": "plant"}
+{"question": "What do Assamese people call Holy basil?", "expected_id": "tulsi", "kind": "plant"}
+{"question": "তুলসীৰ বিষয়ে কোৱাচোন।", "expected_id": "tulsi", "kind": "plant"}
+{"question": "What is Ocimum tenuiflorum in Assamese?", "expected_id": "tulsi", "kind": "plant"}
+{"question": "Koka told me to look for sewali today. What is it?", "expected_id": "sewali", "kind": "plant"}
+{"question": "What do Assamese people call Night-flowering jasmine?", "expected_id": "sewali", "kind": "plant"}
+{"question": "শেৱালিৰ বিষয়ে কোৱাচোন।", "expected_id": "sewali", "kind": "plant"}
+{"question": "What is Nyctanthes arbor-tristis in Assamese?", "expected_id": "sewali", "kind": "plant"}
+{"question": "Koka told me to look for kopou phul today. What is it?", "expected_id": "kopou_phul", "kind": "plant"}
+{"question": "What do Assamese people call Foxtail orchid?", "expected_id": "kopou_phul", "kind": "plant"}
+{"question": "কপৌ ফুলৰ বিষয়ে কোৱাচোন।", "expected_id": "kopou_phul", "kind": "plant"}
+{"question": "What is Rhynchostylis retusa in Assamese?", "expected_id": "kopou_phul", "kind": "plant"}
+{"question": "Koka told me to look for hollong today. What is it?", "expected_id": "hollong", "kind": "plant"}
+{"question": "What do Assamese people call Hollong?", "expected_id": "hollong", "kind": "plant"}
+{"question": "হোলোংৰ বিষয়ে কোৱাচোন।", "expected_id": "hollong", "kind": "plant"}
+{"question": "What is Dipterocarpus retusus in Assamese?", "expected_id": "hollong", "kind": "plant"}
+{"question": "Koka told me to look for simolu today. What is it?", "expected_id": "simolu", "kind": "plant"}
+{"question": "What do Assamese people call Red silk-cotton tree?", "expected_id": "simolu", "kind": "plant"}
+{"question": "শিমলুৰ বিষয়ে কোৱাচোন।", "expected_id": "simolu", "kind": "plant"}
+{"question": "What is Bombax ceiba in Assamese?", "expected_id": "simolu", "kind": "plant"}
+{"question": "Koka told me to look for nahor today. What is it?", "expected_id": "nahor", "kind": "plant"}
+{"question": "What do Assamese people call Ceylon ironwood?", "expected_id": "nahor", "kind": "plant"}
+{"question": "নাহৰৰ বিষয়ে কোৱাচোন।", "expected_id": "nahor", "kind": "plant"}
+{"question": "What is Mesua ferrea in Assamese?", "expected_id": "nahor", "kind": "plant"}
+{"question": "Koka told me to look for tamul today. What is it?", "expected_id": "tamul", "kind": "plant"}
+{"question": "What do Assamese people call Areca palm?", "expected_id": "tamul", "kind": "plant"}
+{"question": "তামোলৰ বিষয়ে কোৱাচোন।", "expected_id": "tamul", "kind": "plant"}
+{"question": "What is Areca catechu in Assamese?", "expected_id": "tamul", "kind": "plant"}
+{"question": "Koka told me to look for paan today. What is it?", "expected_id": "paan", "kind": "plant"}
+{"question": "What do Assamese people call Betel leaf?", "expected_id": "paan", "kind": "plant"}
+{"question": "পাণৰ বিষয়ে কোৱাচোন।", "expected_id": "paan", "kind": "plant"}
+{"question": "What is Piper betle in Assamese?", "expected_id": "paan", "kind": "plant"}
+{"question": "Koka told me to look for kol today. What is it?", "expected_id": "kol", "kind": "plant"}
+{"question": "What do Assamese people call Banana?", "expected_id": "kol", "kind": "plant"}
+{"question": "কলৰ বিষয়ে কোৱাচোন।", "expected_id": "kol", "kind": "plant"}
+{"question": "What is Musa species in Assamese?", "expected_id": "kol", "kind": "plant"}
+{"question": "Koka told me to look for bah today. What is it?", "expected_id": "bah", "kind": "plant"}
+{"question": "What do Assamese people call Bamboo?", "expected_id": "bah", "kind": "plant"}
+{"question": "বাঁহৰ বিষয়ে কোৱাচোন।", "expected_id": "bah", "kind": "plant"}
+{"question": "What is Bambusoideae in Assamese?", "expected_id": "bah", "kind": "plant"}
+{"question": "Koka told me to look for tokou today. What is it?", "expected_id": "tokou", "kind": "plant"}
+{"question": "What do Assamese people call Toko palm?", "expected_id": "tokou", "kind": "plant"}
+{"question": "টকৌৰ বিষয়ে কোৱাচোন।", "expected_id": "tokou", "kind": "plant"}
+{"question": "What is Livistona jenkinsiana in Assamese?", "expected_id": "tokou", "kind": "plant"}
+{"question": "Koka told me to look for som today. What is it?", "expected_id": "som", "kind": "plant"}
+{"question": "What do Assamese people call Som tree?", "expected_id": "som", "kind": "plant"}
+{"question": "চোমৰ বিষয়ে কোৱাচোন।", "expected_id": "som", "kind": "plant"}
+{"question": "What is Persea bombycina in Assamese?", "expected_id": "som", "kind": "plant"}
+{"question": "Koka told me to look for era today. What is it?", "expected_id": "era", "kind": "plant"}
+{"question": "What do Assamese people call Castor plant?", "expected_id": "era", "kind": "plant"}
+{"question": "এৰাৰ বিষয়ে কোৱাচোন।", "expected_id": "era", "kind": "plant"}
+{"question": "What is Ricinus communis in Assamese?", "expected_id": "era", "kind": "plant"}
+{"question": "Koka told me to look for sasi today. What is it?", "expected_id": "sasi", "kind": "plant"}
+{"question": "What do Assamese people call Agarwood?", "expected_id": "sasi", "kind": "plant"}
+{"question": "শাঁচিৰ বিষয়ে কোৱাচোন।", "expected_id": "sasi", "kind": "plant"}
+{"question": "What is Aquilaria malaccensis in Assamese?", "expected_id": "sasi", "kind": "plant"}
+{"question": "Koka told me to look for dhan today. What is it?", "expected_id": "dhan", "kind": "plant"}
+{"question": "What do Assamese people call Rice paddy?", "expected_id": "dhan", "kind": "plant"}
+{"question": "ধানৰ বিষয়ে কোৱাচোন।", "expected_id": "dhan", "kind": "plant"}
+{"question": "What is Oryza sativa in Assamese?", "expected_id": "dhan", "kind": "plant"}
+{"question": "Koka told me to look for xoriyoh today. What is it?", "expected_id": "xoriyoh", "kind": "plant"}
+{"question": "What do Assamese people call Mustard?", "expected_id": "xoriyoh", "kind": "plant"}
+{"question": "সৰিয়হৰ বিষয়ে কোৱাচোন।", "expected_id": "xoriyoh", "kind": "plant"}
+{"question": "What is Brassica species in Assamese?", "expected_id": "xoriyoh", "kind": "plant"}
+{"question": "Koka told me to look for lau today. What is it?", "expected_id": "lau", "kind": "plant"}
+{"question": "What do Assamese people call Bottle gourd?", "expected_id": "lau", "kind": "plant"}
+{"question": "লাওৰ বিষয়ে কোৱাচোন।", "expected_id": "lau", "kind": "plant"}
+{"question": "What is Lagenaria siceraria in Assamese?", "expected_id": "lau", "kind": "plant"}
+{"question": "Koka told me to look for dighloti today. What is it?", "expected_id": "dighloti", "kind": "plant"}
+{"question": "What do Assamese people call Dighloti (a Litsea shrub)?", "expected_id": "dighloti", "kind": "plant"}
+{"question": "দিঘলতিৰ বিষয়ে কোৱাচোন।", "expected_id": "dighloti", "kind": "plant"}
+{"question": "What is Litsea salicifolia in Assamese?", "expected_id": "dighloti", "kind": "plant"}
+{"question": "Koka told me to look for haladhi today. What is it?", "expected_id": "haladhi", "kind": "plant"}
+{"question": "What do Assamese people call Turmeric?", "expected_id": "haladhi", "kind": "plant"}
+{"question": "হালধিৰ বিষয়ে কোৱাচোন।", "expected_id": "haladhi", "kind": "plant"}
+{"question": "What is Curcuma longa in Assamese?", "expected_id": "haladhi", "kind": "plant"}
+{"question": "Koka told me to look for bhedai lota today. What is it?", "expected_id": "bhedai_lota", "kind": "plant"}
+{"question": "What do Assamese people call Skunkvine?", "expected_id": "bhedai_lota", "kind": "plant"}
+{"question": "ভেদাইলতাৰ বিষয়ে কোৱাচোন।", "expected_id": "bhedai_lota", "kind": "plant"}
+{"question": "What is Paederia foetida in Assamese?", "expected_id": "bhedai_lota", "kind": "plant"}
+{"question": "Koka told me to look for manimuni today. What is it?", "expected_id": "manimuni", "kind": "plant"}
+{"question": "What do Assamese people call Indian pennywort?", "expected_id": "manimuni", "kind": "plant"}
+{"question": "মানিমুনিৰ বিষয়ে কোৱাচোন।", "expected_id": "manimuni", "kind": "plant"}
+{"question": "What is Centella asiatica in Assamese?", "expected_id": "manimuni", "kind": "plant"}
+{"question": "Koka told me to look for masundari today. What is it?", "expected_id": "masundari", "kind": "plant"}
+{"question": "What do Assamese people call Fish mint?", "expected_id": "masundari", "kind": "plant"}
+{"question": "মচন্দৰীৰ বিষয়ে কোৱাচোন।", "expected_id": "masundari", "kind": "plant"}
+{"question": "What is Houttuynia cordata in Assamese?", "expected_id": "masundari", "kind": "plant"}
+{"question": "Koka told me to look for dhekia today. What is it?", "expected_id": "dhekia", "kind": "plant"}
+{"question": "What do Assamese people call Vegetable fern?", "expected_id": "dhekia", "kind": "plant"}
+{"question": "ঢেকীয়াৰ বিষয়ে কোৱাচোন।", "expected_id": "dhekia", "kind": "plant"}
+{"question": "What is Diplazium esculentum in Assamese?", "expected_id": "dhekia", "kind": "plant"}
+{"question": "Koka told me to look for tenga mora today. What is it?", "expected_id": "tenga_mora", "kind": "plant"}
+{"question": "What do Assamese people call Roselle?", "expected_id": "tenga_mora", "kind": "plant"}
+{"question": "টেঙামৰাৰ বিষয়ে কোৱাচোন।", "expected_id": "tenga_mora", "kind": "plant"}
+{"question": "What is Hibiscus sabdariffa in Assamese?", "expected_id": "tenga_mora", "kind": "plant"}
+{"question": "Koka told me to look for kolmou today. What is it?", "expected_id": "kolmou", "kind": "plant"}
+{"question": "What do Assamese people call Water spinach?", "expected_id": "kolmou", "kind": "plant"}
+{"question": "কলমৌৰ বিষয়ে কোৱাচোন।", "expected_id": "kolmou", "kind": "plant"}
+{"question": "What is Ipomoea aquatica in Assamese?", "expected_id": "kolmou", "kind": "plant"}
+{"question": "Koka told me to look for jamu today. What is it?", "expected_id": "jamu", "kind": "plant"}
+{"question": "What do Assamese people call Java plum?", "expected_id": "jamu", "kind": "plant"}
+{"question": "জামুৰ বিষয়ে কোৱাচোন।", "expected_id": "jamu", "kind": "plant"}
+{"question": "What is Syzygium cumini in Assamese?", "expected_id": "jamu", "kind": "plant"}
+{"question": "Koka told me to look for modhuri am today. What is it?", "expected_id": "modhuri_am", "kind": "plant"}
+{"question": "What do Assamese people call Guava?", "expected_id": "modhuri_am", "kind": "plant"}
+{"question": "মধুৰিআমৰ বিষয়ে কোৱাচোন।", "expected_id": "modhuri_am", "kind": "plant"}
+{"question": "What is Psidium guajava in Assamese?", "expected_id": "modhuri_am", "kind": "plant"}
+{"question": "Koka told me to look for robab tenga today. What is it?", "expected_id": "robab_tenga", "kind": "plant"}
+{"question": "What do Assamese people call Pomelo?", "expected_id": "robab_tenga", "kind": "plant"}
+{"question": "ৰবাব টেঙাৰ বিষয়ে কোৱাচোন।", "expected_id": "robab_tenga", "kind": "plant"}
+{"question": "What is Citrus maxima in Assamese?", "expected_id": "robab_tenga", "kind": "plant"}
+{"question": "Koka told me to look for chah today. What is it?", "expected_id": "chah", "kind": "plant"}
+{"question": "What do Assamese people call Assam tea?", "expected_id": "chah", "kind": "plant"}
+{"question": "চাহৰ বিষয়ে কোৱাচোন।", "expected_id": "chah", "kind": "plant"}
+{"question": "What is Camellia sinensis var. assamica in Assamese?", "expected_id": "chah", "kind": "plant"}
+{"question": "Koka told me to look for padum today. What is it?", "expected_id": "padum", "kind": "plant"}
+{"question": "What do Assamese people call Lotus?", "expected_id": "padum", "kind": "plant"}
+{"question": "পদুমৰ বিষয়ে কোৱাচোন।", "expected_id": "padum", "kind": "plant"}
+{"question": "What is Nelumbo nucifera in Assamese?", "expected_id": "padum", "kind": "plant"}
+{"question": "Koka told me to look for kosu today. What is it?", "expected_id": "kosu", "kind": "plant"}
+{"question": "What do Assamese people call Taro?", "expected_id": "kosu", "kind": "plant"}
+{"question": "কচুৰ বিষয়ে কোৱাচোন।", "expected_id": "kosu", "kind": "plant"}
+{"question": "What is Colocasia esculenta in Assamese?", "expected_id": "kosu", "kind": "plant"}
+{"question": "Koka told me to look for nim today. What is it?", "expected_id": "nim", "kind": "plant"}
+{"question": "What do Assamese people call Neem?", "expected_id": "nim", "kind": "plant"}
+{"question": "নিমৰ বিষয়ে কোৱাচোন।", "expected_id": "nim", "kind": "plant"}
+{"question": "What is Azadirachta indica in Assamese?", "expected_id": "nim", "kind": "plant"}
+{"question": "Koka told me to look for bel today. What is it?", "expected_id": "bel", "kind": "plant"}
+{"question": "What do Assamese people call Bael?", "expected_id": "bel", "kind": "plant"}
+{"question": "বেলৰ বিষয়ে কোৱাচোন।", "expected_id": "bel", "kind": "plant"}
+{"question": "What is Aegle marmelos in Assamese?", "expected_id": "bel", "kind": "plant"}

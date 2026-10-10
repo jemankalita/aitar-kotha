@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aitar Kotha</title>
+  <meta name="description" content="Plants of Assam, the way Aita told it. An open-model field guide that wants you outside.">
+  <meta name="theme-color" content="#f6f1e6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1814" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/noto-serif-bengali.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 21v-6m0 0c-4 0-6.5-2.4-6.5-5.5S8.3 3 12 3s6.5 3.4 6.5 6.5S16 15 12 15z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14zm0 0 7-7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-flower" viewBox="0 0 24 24"><circle cx="12" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.8c0-3 3.5-3 3.5 0M14.2 10c3 0 3 3.5 0 3.5M12 12.2c0 3-3.5 3-3.5 0M9.8 10c-3 0-3-3.5 0-3.5M12 14v7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-vine" viewBox="0 0 24 24"><path d="M7 21c0-5 10-5 10-10S7 6 7 3m3 6c2 0 3-1 3-3m-2 9c-2 0-3 1-3 3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-grass" viewBox="0 0 24 24"><path d="M4 21c1-6 2-9 4-12M9 21c0-6 1-10 3-15M14 21c0-5 1-8 4-11M19 21c0-3 .5-5 1.5-7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-fruit" viewBox="0 0 24 24"><circle cx="12" cy="14" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V4m0 1.5c1.5-1.5 3.5-1.8 5-1.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3.5c3.5 4.4 6 7.8 6 10.8a6 6 0 0 1-12 0c0-3 2.5-6.4 6-10.8z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z" fill="currentColor"/></symbol>
+  </svg>
+
+  <header class="masthead">
+    <div class="gamosa" aria-hidden="true"></div>
+    <div class="masthead-row">
+      <div>
+        <h1 lang="as">আইতাৰ কথা</h1>
+        <p class="kicker" data-i18n="kicker">Aitar Kotha · plants of Assam, the way Aita told it</p>
+      </div>
+      <div class="masthead-tools">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-pressed="false">
+          <span id="lang-label" lang="as">অসমীয়া</span>
+        </button>
+        <p class="month" aria-label="This month">
+          <span id="month-as" class="month-as" lang="as"></span>
+          <span id="month-en" class="month-en"></span>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="col col-main">
+      <section id="welcome" class="welcome">
+        <p class="welcome-line" data-i18n="welcomeLine">Show Aita a leaf, or ask her by name.</p>
+        <p class="welcome-hint" data-i18n="welcomeHint">She answers in a few lines, then sends you back outside.</p>
+      </section>
+
+      <article id="answer" class="field-card" aria-live="polite" hidden>
+        <div class="gamosa gamosa--thin" aria-hidden="true"></div>
+        <header id="card-head" class="card-head">
+          <div class="card-tags">
+            <p id="kind" class="kind"></p>
+            <p id="badge-chip" class="badge-chip" hidden></p>
+          </div>
+          <h2 id="as-name" class="as-name" lang="as"></h2>
+          <p class="sub-name"><span id="roman" class="roman"></span><span id="english"></span> <i id="scientific"></i></p>
+        </header>
+        <figure id="aita-words" class="aita-words" hidden>
+          <figcaption id="aita-label"></figcaption>
+          <blockquote id="aita-quote"></blockquote>
+        </figure>
+        <dl id="facts" class="facts"></dl>
+        <p id="scan-hint" class="scan-hint" hidden></p>
+        <footer class="card-foot">
+          <p id="badges" class="badges"></p>
+          <div class="card-actions">
+            <button id="listen" class="ghost listen" type="button" aria-pressed="false" hidden></button>
+            <button id="card-lang" class="ghost" type="button"></button>
+            <button id="met" class="met" type="button" hidden></button>
+          </div>
+        </footer>
+        <p class="nudge" data-i18n="nudge">Now put the phone in your pocket.</p>
+      </article>
+
+      <section class="season" aria-labelledby="season-title">
+        <h2 id="season-title" class="section-title">In season now</h2>
+        <ul id="season-chips" class="specimens"></ul>
+      </section>
+    </div>
+
+    <div class="col col-side">
+      <section class="achievements" aria-labelledby="ach-title">
+        <h2 id="ach-title" class="section-title">
+          <span data-i18n="achievements">Achievements</span>
+          <span id="ach-count" class="count">0</span>
+        </h2>
+
+        <div id="star-card" class="star-card">
+          <div class="medal medal--star" aria-hidden="true"><svg><use href="#i-star"/></svg></div>
+          <div class="star-text">
+            <p id="star-name" class="star-name"></p>
+            <p id="star-hint" class="star-hint"></p>
+            <div class="bar" role="progressbar" id="star-bar" aria-valuemin="0">
+              <span id="star-fill" class="bar-fill"></span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-title" data-i18n="collections">Collections</h3>
+        <ul id="award-list" class="awards"></ul>
+
+        <h3 class="sub-title" data-i18n="plantBadges">Plant badges</h3>
+        <ul id="plant-badges" class="plant-badges"></ul>
+        <p class="hint" data-i18n="scanHint">Scan a plant with the camera to earn its badge.</p>
+      </section>
+
+      <section class="journal" aria-labelledby="journal-title">
+        <h2 id="journal-title" class="section-title">
+          <span data-i18n="journalTitle">Plants I met</span>
+          <span id="met-count" class="count">0</span>
+        </h2>
+        <ol id="met-list" class="met-list"></ol>
+        <p id="met-empty" class="empty" data-i18n="empty">Nothing yet. Go outside.</p>
+      </section>
+
+      <p class="fineprint" data-i18n="fineprint">Family notes, still being checked with elders. Never eat a plant you cannot name for sure.</p>
+    </div>
+  </main>
+
+  <div class="dock">
+    <p id="status" class="status" role="status"></p>
+    <form id="ask-form" class="dock-row">
+      <label class="camera" for="photo">
+        <svg aria-hidden="true"><use href="#i-camera"/></svg>
+        <span class="camera-text" data-i18n="photo">Photo</span>
+        <input type="file" id="photo" accept="image/*" capture="environment">
+      </label>
+      <label for="question" class="visually-hidden" data-i18n="askLabel">Ask by name</label>
+      <input id="question" name="question" maxlength="500" autocomplete="off" enterkeyhint="send"
+             data-i18n-placeholder="placeholder" placeholder="bogori, sewali, ou tenga…">
+      <button type="submit" class="send" data-i18n-label="askButton" aria-label="Ask Aita">
+        <svg aria-hidden="true"><use href="#i-send"/></svg>
+      </button>
+    </form>
+  </div>
+
+  <dialog id="celebrate" class="celebrate" aria-labelledby="cel-title">
+    <div class="medal medal--big" aria-hidden="true"><svg id="cel-icon"><use href="#i-star"/></svg></div>
+    <p class="cel-kicker" data-i18n="newBadge">New badge!</p>
+    <h2 id="cel-title" class="cel-title"></h2>
+    <p id="cel-sub" class="cel-sub"></p>
+    <ul id="cel-awards" class="cel-awards"></ul>
+    <form method="dialog"><button class="met" data-i18n="keepWalking">Keep walking</button></form>
+  </dialog>
+
+  <script src="i18n.js" defer></script>
+  <script src="achievements.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

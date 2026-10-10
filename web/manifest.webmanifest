@@ -1,0 +1,10 @@
+{
+  "name": "Aitar Kotha — আইতাৰ কথা",
+  "short_name": "Aitar Kotha",
+  "description": "Plants of Assam, the way Aita told it.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#f7f3ea",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
