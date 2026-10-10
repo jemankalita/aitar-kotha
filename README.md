@@ -9,6 +9,8 @@
 
 Built for the [Hacktoberfest Open-Source AI Challenge, Week 1: Touch Grass](https://dev.to/challenges/hf26).
 
+**Live demo:** https://jemankalita.github.io/aitar-kotha/. The demo answers from the family notes in your browser (names, seasons, English ⇄ অসমীয়া, achievements). The open AI, meaning the fine-tuned Aita and photo scanning, runs when you run it yourself (below). That's the point: your family's knowledge, on your own device.
+
 ## Why open
 
 Closed models know "Indian jujube". They rarely know **bogori**, never know that you wait for Saraswati Puja before eating it, and you can't teach them. With open weights you can:
@@ -102,6 +104,15 @@ export AITA_VISION_MODEL=gemma4:e4b
 The vision model only picks from the 43 plants in the notes and reports a confidence. Below 50% Aita says she isn't sure instead of guessing.
 
 **Aita's voice in Assamese (optional, ElevenLabs).** Every card gets a 🔊 শুনা · Listen button that reads the name, Aita's story and any warning aloud, in Assamese or English (`eleven_v4`, `language_code="as"`). Copy `.env.example` to `.env` and set `ELEVENLABS_API_KEY` (create one at https://elevenlabs.io/app/settings/api-keys; never commit `.env`). Each clip is generated once and cached in `audio_cache/`, so replays cost nothing and work offline. Change `AITA_VOICE_ID` to whichever voice sounds most like your Aita. This is the one closed service in the project; without a key the button simply doesn't appear.
+
+## The static demo (GitHub Pages)
+
+```bash
+python -m aita.voice_clips     # optional: pre-make the 86 Assamese/English clips (needs ELEVENLABS_API_KEY)
+python -m aita.build_static    # writes dist/: the web app + plants.json + config.json (mode: demo)
+```
+
+Every push to `main` runs the tests and redeploys the demo (`.github/workflows/pages.yml`). Commit `voice_clips/` to make the demo talk without any API key.
 
 ## Offline on the trail
 

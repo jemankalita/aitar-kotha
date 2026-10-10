@@ -16,3 +16,4 @@ audio_cache/
 .claude/
 skills-lock.json
 DEV_POST_DRAFT.md
+dist/

@@ -55,6 +55,14 @@ self.AitaI18n = {
       stopListening: "■ Stop",
       voiceLoading: "Aita is about to speak",
       voiceFail: "Aita's voice is not available right now.",
+      sourceDemo: "From the family notes · demo site",
+      demoBanner: "Demo: answers come from the family notes. The open AI (fine-tuned Aita, photo scanning) runs on your own device.",
+      demoLink: "Run it locally →",
+      demoScan: "Photo scanning runs in the local version, with an open vision model on your own device. Here, ask Aita by name.",
+      seasonHead: "It is {month} now. On your walk, look for:",
+      seasonTail: "Go out and see how many you can find before dark.",
+      unknown:
+        "I don't know that one, child. It is not from our garden or our hills, and I won't guess. Ask an elder who knows it, and never eat something you cannot name for sure.",
     },
     as: {
       kicker: "Aitar Kotha · আইতাই কোৱাৰ দৰে অসমৰ গছ-গছনি",
@@ -106,6 +114,10 @@ self.AitaI18n = {
       stopListening: "■ ৰখা",
       voiceLoading: "আইতাই কথা ক'বলৈ ওলাইছে",
       voiceFail: "এতিয়া আইতাৰ মাত শুনিব পৰা নাই।",
+      sourceDemo: "পৰিয়ালৰ টোকাৰ পৰা · ডেমো চাইট",
+      demoBanner: "ডেমো: উত্তৰবোৰ পৰিয়ালৰ টোকাৰ পৰা। মুক্ত AI (ফাইন-টিউন কৰা আইতা, ফটো স্কেন) তোমাৰ নিজৰ ডিভাইচত চলে।",
+      demoLink: "নিজে চলাই চোৱা →",
+      demoScan: "ফটো স্কেন লোকেল সংস্কৰণত চলে, তোমাৰ নিজৰ ডিভাইচৰ মুক্ত মডেলেৰে। ইয়াত নাম ধৰি আইতাক সোধা।",
       seasonHead: "এতিয়া {month} মাহ। খোজ কাঢ়োঁতে এইবোৰ বিচাৰা:",
       seasonTail: "আন্ধাৰ হোৱাৰ আগতে কিমানবিধ বিচাৰি পোৱা চোৱা।",
       unknown:

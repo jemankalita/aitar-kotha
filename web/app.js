@@ -2,6 +2,7 @@
 
 // Aitar Kotha front end: ask by name or photo, read in English or Assamese, earn badges by scanning.
 // Talks to the local server; falls back to the family notes saved on the phone when offline.
+// On the static demo site (config.json says mode: demo) it answers from plants.json in the browser.
 
 const { STRINGS, LABELS, KINDS } = self.AitaI18n;
 const A = self.AitaAchievements;
@@ -22,7 +23,8 @@ const KIND_ICONS = {
   orchid: "i-flower", aquatic: "i-flower", climber: "i-vine", grass: "i-grass", fern: "i-grass",
 };
 const SET_ICONS = { tenga: "i-drop", bihu: "i-flower", xaak: "i-leaf", fol: "i-fruit", habi: "i-tree" };
-const SOURCE_KEYS = { model: "sourceModel", notes: "sourceNotes", offline: "sourceOffline" };
+const SOURCE_KEYS = { model: "sourceModel", notes: "sourceNotes", offline: "sourceOffline", demo: "sourceDemo" };
+const SEASON_WORDS = /\b(month|season|this week|today|growing|flowering|in bloom|look for)\b|বতৰ|মাহ/i;
 
 const $ = (id) => document.getElementById(id);
 let plants = [];
@@ -32,6 +34,7 @@ let lang = readStored(LANG_KEY) === "as" ? "as" : "en";
 let badges = A.parseState(readStored(BADGE_KEY) || "");
 let voiceOn = false; // set from /api/health: true when the server has an ElevenLabs key
 let voiceAudio = null;
+let demo = null; // { repo, voice } when running as the static demo site
 
 // ---------- small helpers ----------
 
@@ -171,6 +174,7 @@ function fact(key, text, className = "") {
 
 function renderHead(plant) {
   $("card-head").hidden = !plant;
+  $("scan-hint").hidden = true; // only shown below for a plant the walker hasn't scanned yet
   if (!plant) return;
   const [kindAs, kindEn] = KINDS[plant.kind] || ["", plant.kind];
   $("kind").replaceChildren(icon(KIND_ICONS[plant.kind] || "i-leaf"), isAs() ? assamese(kindAs) : kindEn);
@@ -275,7 +279,8 @@ function toggleVoice() {
     return;
   }
   if (!currentPlant) return;
-  const audio = new Audio(`/api/speak/${encodeURIComponent(currentPlant.id)}?lang=${lang}`);
+  const id = encodeURIComponent(currentPlant.id);
+  const audio = new Audio(demo ? `audio/${id}-${lang}.mp3` : `/api/speak/${id}?lang=${lang}`);
   voiceAudio = audio;
   renderListenButton(currentPlant);
   setStatus(t("voiceLoading"), true);
@@ -292,6 +297,11 @@ function toggleVoice() {
 }
 
 async function loadHealth() {
+  if (demo) {
+    voiceOn = demo.voice;
+    renderListenButton(currentPlant);
+    return;
+  }
   try {
     const response = await fetch("/api/health");
     voiceOn = response.ok && Boolean((await response.json()).voice);
@@ -459,11 +469,50 @@ function earnBadge(plant) {
   celebrate(plant, awards);
 }
 
+// ---------- demo mode (static site, no AI at runtime) ----------
+
+async function loadConfig() {
+  try {
+    const response = await fetch("config.json");
+    const config = response.ok ? await response.json() : null;
+    demo = config?.mode === "demo" ? { repo: config.repo, voice: Boolean(config.voice) } : null;
+  } catch {
+    demo = null; // the local server has no config.json: full version
+  }
+  document.body.classList.toggle("is-demo", Boolean(demo));
+  $("demo-banner").hidden = !demo;
+  if (demo) $("demo-link").href = demo.repo;
+}
+
+function seasonAnswerEn() {
+  const list = plants.filter((p) => p.months.includes(MONTH));
+  const lines = list.map((p) => `• ${p.assamese} (${p.roman}): ${p.english}`);
+  return [t("seasonHead", { month: MONTHS[MONTH - 1][1] }), ...lines, t("seasonTail")].join("\n");
+}
+
+function demoAnswer(question) {
+  const plant = findPlantOffline(question);
+  if (plant) return { plant, answer: "", source: "demo", kind: "plant" };
+  if (SEASON_WORDS.test(question)) return { plant: null, answer: seasonAnswerEn(), source: "demo", kind: "season" };
+  return { plant: null, answer: STRINGS.en.unknown, source: "demo", kind: "unknown" };
+}
+
+function explainDemoScan(event) {
+  event.preventDefault();
+  setStatus(t("demoScan"));
+}
+
 // ---------- actions ----------
 
 async function ask(question) {
   const text = question.trim();
   if (!text) return;
+  if (demo) {
+    renderAnswer(demoAnswer(text));
+    setStatus("");
+    $("question").value = "";
+    return;
+  }
   setStatus(t("thinking"), true);
   try {
     renderAnswer(await postJSON("/api/ask", { question: text, month: MONTH }));
@@ -516,7 +565,7 @@ async function identify(file) {
 
 async function loadPlants() {
   try {
-    const response = await fetch("/api/plants");
+    const response = await fetch(demo ? "plants.json" : "/api/plants");
     if (!response.ok) throw new Error(`Error ${response.status}`);
     plants = await response.json();
   } catch {
@@ -526,12 +575,13 @@ async function loadPlants() {
   renderAchievements();
 }
 
-function init() {
+async function init() {
   $("ask-form").addEventListener("submit", (event) => {
     event.preventDefault();
     ask($("question").value);
   });
   $("photo").addEventListener("change", (event) => identify(event.target.files[0]));
+  $("camera").addEventListener("click", (event) => demo && explainDemoScan(event));
   $("met").addEventListener("click", markFound);
   $("listen").addEventListener("click", toggleVoice);
   const toggle = () => setLanguage(isAs() ? "en" : "as");
@@ -540,6 +590,7 @@ function init() {
   applyStaticText();
   renderMonth();
   renderJournal();
+  await loadConfig();
   loadPlants();
   loadHealth();
   if ("serviceWorker" in navigator) {
