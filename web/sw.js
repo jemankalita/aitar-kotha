@@ -1,7 +1,7 @@
 "use strict";
 
 // Keeps the app shell and the family notes on the phone, so asking by name works with no signal.
-const CACHE = "aita-v6";
+const CACHE = "aita-v7";
 const SHELL = [
   "./",
   "index.html",

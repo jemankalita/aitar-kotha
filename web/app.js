@@ -212,9 +212,12 @@ function seasonLinesAs() {
   return [t("seasonHead", { month: MONTHS[MONTH - 1][0] }), ...list.map((p) => `• ${p.assamese}`), t("seasonTail")];
 }
 
+// Aita (the fine-tuned model) answers in English; in Assamese mode the card shows the family's Assamese notes.
+const showModelWords = (result) => result.source === "model" && !(isAs() && result.plant?.as);
+
 function quoteFor(result) {
   const { plant, source, kind } = result;
-  if (plant && source !== "model") return [notesOf(plant).story];
+  if (plant && !showModelWords(result)) return [notesOf(plant).story];
   if (source === "model" || !isAs()) return stripHeader(result.answer.split("\n").filter((l) => l.trim()), plant);
   if (kind === "season") return seasonLinesAs();
   if (kind === "unknown") return [t("unknown")];
@@ -251,7 +254,7 @@ function renderAnswer(result, { scroll = true } = {}) {
   $("aita-words").hidden = lines.length === 0;
   $("aita-label").replaceChildren(...bilingual(["আইতাই কয়", "Aita says"]));
   $("aita-quote").replaceChildren(...lines.map((line) => el("p", { textContent: line })));
-  renderFacts(plant, result.source === "model");
+  renderFacts(plant, showModelWords(result));
 
   const notes = [t(SOURCE_KEYS[result.source] || "sourceNotes")];
   if (plant && !plant.verified) notes.push(t("unverified"));
