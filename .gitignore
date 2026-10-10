@@ -15,3 +15,4 @@ audio_cache/
 .agents/
 .claude/
 skills-lock.json
+DEV_POST_DRAFT.md
