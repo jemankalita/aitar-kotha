@@ -172,9 +172,22 @@ function fact(key, text, className = "") {
   return el("div", { className }, el("dt", {}, ...bilingual(LABELS[key])), el("dd", { textContent: text }));
 }
 
+function renderPhoto(plant) {
+  const image = plant?.image;
+  $("plant-photo").hidden = !image;
+  if (!image) return;
+  const img = $("plant-img");
+  img.src = image.src;
+  img.alt = `${plant.english} (${plant.scientific})`;
+  const credit = $("plant-credit");
+  credit.textContent = `${t("photoBy")} ${image.author} · ${image.license} · Wikimedia Commons`;
+  credit.href = image.source;
+}
+
 function renderHead(plant) {
   $("card-head").hidden = !plant;
   $("scan-hint").hidden = true; // only shown below for a plant the walker hasn't scanned yet
+  renderPhoto(plant);
   if (!plant) return;
   const [kindAs, kindEn] = KINDS[plant.kind] || ["", plant.kind];
   $("kind").replaceChildren(icon(KIND_ICONS[plant.kind] || "i-leaf"), isAs() ? assamese(kindAs) : kindEn);
@@ -323,10 +336,13 @@ function renderSeason() {
   const list = plants.filter((p) => p.months.includes(MONTH));
   $("season-title").textContent = list.length ? t("seasonCount", { n: list.length }) : t("seasonTitle");
   const items = list.map((plant) => {
+    const visual = plant.image
+      ? el("img", { className: "specimen-photo", src: plant.image.src, alt: "", loading: "lazy", decoding: "async" })
+      : icon(KIND_ICONS[plant.kind] || "i-leaf");
     const button = el(
       "button",
-      { type: "button", className: "specimen" },
-      icon(KIND_ICONS[plant.kind] || "i-leaf"),
+      { type: "button", className: `specimen ${plant.image ? "has-photo" : ""}` },
+      visual,
       assamese(plant.assamese),
       el("span", { className: "roman", textContent: plant.roman }),
     );

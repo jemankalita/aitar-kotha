@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import Sequence
 
 from aita.knowledge import load_plants, load_translations
+from aita.plant_images import image_view, load_image_credits
 
 ROOT = Path(__file__).resolve().parent.parent
 WEB_DIR = ROOT / "web"
@@ -40,7 +41,11 @@ def build_site(out_dir: Path, *, clips_dir: Path = DEFAULT_CLIPS, repo_url: str 
 
     plants = load_plants()
     translations = load_translations(plants=plants)
-    _write_json(out_dir / "plants.json", [{**p.to_dict(), "as": translations.get(p.id)} for p in plants])
+    photos = load_image_credits(plants)
+    _write_json(
+        out_dir / "plants.json",
+        [{**p.to_dict(), "as": translations.get(p.id), "image": image_view(photos.get(p.id))} for p in plants],
+    )
 
     clips = sorted(Path(clips_dir).glob("*.mp3")) if Path(clips_dir).is_dir() else []
     if clips:

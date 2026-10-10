@@ -3,11 +3,23 @@
     "id": "bogori",
     "assamese": "বগৰী",
     "roman": "bogori",
-    "aliases": ["bogori gos", "ber", "kul", "jujube", "indian jujube", "indian plum"],
+    "aliases": [
+      "bogori gos",
+      "ber",
+      "kul",
+      "jujube",
+      "indian jujube",
+      "indian plum"
+    ],
     "english": "Indian jujube",
     "scientific": "Ziziphus mauritiana",
     "kind": "tree",
-    "months": [12, 1, 2, 3],
+    "months": [
+      12,
+      1,
+      2,
+      3
+    ],
     "season_note": "Fruits ripen through the cold months, around Magh (January-February).",
     "look_for": "A thorny small tree with small shiny oval leaves that are pale and fuzzy underneath. Round fruits turn from green to yellow and then reddish-brown.",
     "uses": [
@@ -16,17 +28,29 @@
     ],
     "story": "Many families tell children not to eat bogori until after Saraswati Puja, so the first bogori of the year feels like a reward after the puja.",
     "caution": "Sharp curved thorns on the branches. Pick from the outside of the tree.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "amlokhi",
     "assamese": "আমলখি",
     "roman": "amlokhi",
-    "aliases": ["amla", "amloki", "amlakhi", "indian gooseberry", "emblic"],
+    "aliases": [
+      "amla",
+      "amloki",
+      "amlakhi",
+      "indian gooseberry",
+      "emblic"
+    ],
     "english": "Indian gooseberry",
     "scientific": "Phyllanthus emblica",
     "kind": "tree",
-    "months": [10, 11, 12, 1, 2],
+    "months": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
     "season_note": "Fruits start in Kati (October) and last through winter.",
     "look_for": "Feathery branches with tiny leaves in two neat rows, like a fern. Pale green, round, ribbed fruits hug the twigs.",
     "uses": [
@@ -35,17 +59,28 @@
     ],
     "story": "Bite an amlokhi, chew it, then drink a sip of water: the water tastes sweet. Every child in the village learns this trick once.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "ou_tenga",
     "assamese": "ঔ টেঙা",
     "roman": "ou tenga",
-    "aliases": ["outenga", "ou", "elephant apple", "chalta"],
+    "aliases": [
+      "outenga",
+      "ou",
+      "elephant apple",
+      "chalta"
+    ],
     "english": "Elephant apple",
     "scientific": "Dillenia indica",
     "kind": "tree",
-    "months": [9, 10, 11, 12, 1],
+    "months": [
+      9,
+      10,
+      11,
+      12,
+      1
+    ],
     "season_note": "Big white flowers in early summer; the hard green fruits are ready from autumn into winter.",
     "look_for": "Large leaves with deep straight parallel veins and toothed edges. Fruits are big green balls made of thick overlapping layers.",
     "uses": [
@@ -54,17 +89,27 @@
     ],
     "story": "It is called elephant apple because elephants love it; in the forests the elephants and monkeys get to the fallen fruit before people do.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "kordoi",
     "assamese": "কৰ্দৈ",
     "roman": "kordoi",
-    "aliases": ["kordoi tenga", "star fruit", "carambola", "kamrakh"],
+    "aliases": [
+      "kordoi tenga",
+      "star fruit",
+      "carambola",
+      "kamrakh"
+    ],
     "english": "Star fruit",
     "scientific": "Averrhoa carambola",
     "kind": "tree",
-    "months": [9, 10, 11, 12],
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
     "season_note": "Most fruit comes in autumn and early winter.",
     "look_for": "A small bushy tree with soft compound leaves. Waxy green-to-yellow fruits with five ridges; cut across, each slice is a star.",
     "uses": [
@@ -73,17 +118,24 @@
     ],
     "story": "Children cut kordoi crosswise just to show each other the stars.",
     "caution": "Star fruit is high in oxalate. People with kidney disease should not eat it.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "leteku",
     "assamese": "লেটেকু",
     "roman": "leteku",
-    "aliases": ["latkan", "burmese grape"],
+    "aliases": [
+      "latkan",
+      "burmese grape"
+    ],
     "english": "Burmese grape",
     "scientific": "Baccaurea ramiflora",
     "kind": "tree",
-    "months": [6, 7, 8],
+    "months": [
+      6,
+      7,
+      8
+    ],
     "season_note": "Fruits ripen in the monsoon.",
     "look_for": "Bunches of round yellowish fruits hanging straight from the trunk and thick branches, not from the leafy twigs.",
     "uses": [
@@ -91,17 +143,25 @@
     ],
     "story": "Leteku grows strangely, right out of the tree's trunk, so children can pick it standing on the ground.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "poniol",
     "assamese": "পনিয়ল",
     "roman": "poniol",
-    "aliases": ["paniol", "panial", "coffee plum"],
+    "aliases": [
+      "paniol",
+      "panial",
+      "coffee plum"
+    ],
     "english": "Coffee plum",
     "scientific": "Flacourtia jangomas",
     "kind": "tree",
-    "months": [5, 6, 7],
+    "months": [
+      5,
+      6,
+      7
+    ],
     "season_note": "Fruits around early monsoon.",
     "look_for": "A small tree, sometimes with spines on the trunk. Small round fruits turn dark reddish-purple when ripe.",
     "uses": [
@@ -109,17 +169,27 @@
     ],
     "story": "Poniol is rubbed between the palms before eating to make it less sour; it is a game as much as a snack.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "jolphai",
     "assamese": "জলফাই",
     "roman": "jolphai",
-    "aliases": ["jolpai", "jalpai", "indian olive", "ceylon olive"],
+    "aliases": [
+      "jolpai",
+      "jalpai",
+      "indian olive",
+      "ceylon olive"
+    ],
     "english": "Indian olive",
     "scientific": "Elaeocarpus serratus",
     "kind": "tree",
-    "months": [9, 10, 11, 12],
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
     "season_note": "Fruits in autumn; the old leaves turn bright red before falling.",
     "look_for": "Look for single bright red leaves scattered among green ones. Oval green fruits like olives, with a hard ridged stone.",
     "uses": [
@@ -128,17 +198,23 @@
     ],
     "story": "School gates in autumn used to have someone selling jolphai pickle in paper cones.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "thekera",
     "assamese": "থেকেৰা",
     "roman": "thekera",
-    "aliases": ["thekera tenga"],
+    "aliases": [
+      "thekera tenga"
+    ],
     "english": "Garcinia (thekera)",
     "scientific": "Garcinia pedunculata",
     "kind": "tree",
-    "months": [4, 5, 6],
+    "months": [
+      4,
+      5,
+      6
+    ],
     "season_note": "Fruits in late spring; the dried slices are used all year.",
     "look_for": "A tall tree with glossy dark leaves. Large, round, yellow-green fruits.",
     "uses": [
@@ -147,17 +223,26 @@
     ],
     "story": "Dried thekera slices are kept in a jar in almost every Assamese kitchen; elders reach for them when the stomach is upset.",
     "caution": "Traditional remedy only, not medical advice.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "kaji_nemu",
     "assamese": "কাজী নেমু",
     "roman": "kaji nemu",
-    "aliases": ["kazi nemu", "assam lemon", "nemu"],
+    "aliases": [
+      "kazi nemu",
+      "assam lemon",
+      "nemu"
+    ],
     "english": "Assam lemon",
     "scientific": "Citrus limon",
     "kind": "shrub",
-    "months": [7, 8, 9, 10],
+    "months": [
+      7,
+      8,
+      9,
+      10
+    ],
     "season_note": "Fruits mostly after the monsoon.",
     "look_for": "A thorny shrub with strongly scented leaves. Long, oval, seedless lemons, much longer than the round local nemu.",
     "uses": [
@@ -166,17 +251,28 @@
     ],
     "story": "One kaji nemu is enough for the whole family's meal, and its smell stays on your hands for hours.",
     "caution": "Thorny branches.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "bhut_jolokia",
     "assamese": "ভূত জলকীয়া",
     "roman": "bhut jolokia",
-    "aliases": ["bhoot jolokia", "ghost pepper", "naga chilli", "jolokia"],
+    "aliases": [
+      "bhoot jolokia",
+      "ghost pepper",
+      "naga chilli",
+      "jolokia"
+    ],
     "english": "Ghost pepper",
     "scientific": "Capsicum chinense",
     "kind": "shrub",
-    "months": [7, 8, 9, 10, 11],
+    "months": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
     "season_note": "Fruits from late monsoon into autumn.",
     "look_for": "A chilli plant with wrinkled, bumpy pods that turn red when ripe.",
     "uses": [
@@ -185,17 +281,23 @@
     ],
     "story": "Elders cut bhut jolokia with a spoon and fork so they never touch it, and laugh at anyone who tries a whole one.",
     "caution": "Among the hottest chillies in the world. Do not touch your eyes after handling it; keep it away from children.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "tulsi",
     "assamese": "তুলসী",
     "roman": "tulsi",
-    "aliases": ["tulsi gos", "holy basil", "tulasi"],
+    "aliases": [
+      "tulsi gos",
+      "holy basil",
+      "tulasi"
+    ],
     "english": "Holy basil",
     "scientific": "Ocimum tenuiflorum",
     "kind": "herb",
-    "months": [10],
+    "months": [
+      10
+    ],
     "season_note": "Grows all year; it is at the centre of Kati Bihu in October.",
     "look_for": "A small bushy herb, often on a raised stand in the courtyard. Fragrant leaves, purple-tinged in some plants, with thin flower spikes.",
     "uses": [
@@ -204,17 +306,29 @@
     ],
     "story": "On Kati Bihu, the family lights an earthen lamp at the foot of the tulsi in the courtyard in the evening and prays for the growing paddy.",
     "caution": "Traditional remedy only, not medical advice.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "sewali",
     "assamese": "শেৱালি",
     "roman": "sewali",
-    "aliases": ["xewali", "sewali phul", "shefali", "shiuli", "night jasmine", "parijat", "harsingar"],
+    "aliases": [
+      "xewali",
+      "sewali phul",
+      "shefali",
+      "shiuli",
+      "night jasmine",
+      "parijat",
+      "harsingar"
+    ],
     "english": "Night-flowering jasmine",
     "scientific": "Nyctanthes arbor-tristis",
     "kind": "shrub",
-    "months": [9, 10, 11],
+    "months": [
+      9,
+      10,
+      11
+    ],
     "season_note": "Flowers in autumn; the smell at dawn means the puja season has come.",
     "look_for": "Look under the bush at dawn: small white flowers with bright orange tubes carpet the ground. Leaves are rough like sandpaper.",
     "uses": [
@@ -224,17 +338,24 @@
     ],
     "story": "Sewali blooms at night and falls before sunrise. Children used to wake early to collect the flowers before the sun wilted them.",
     "caution": "The leaf remedy is traditional only, not medical advice.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "kopou_phul",
     "assamese": "কপৌ ফুল",
     "roman": "kopou phul",
-    "aliases": ["kopou", "kopou orchid", "foxtail orchid"],
+    "aliases": [
+      "kopou",
+      "kopou orchid",
+      "foxtail orchid"
+    ],
     "english": "Foxtail orchid",
     "scientific": "Rhynchostylis retusa",
     "kind": "orchid",
-    "months": [4, 5],
+    "months": [
+      4,
+      5
+    ],
     "season_note": "Blooms in Bohag (April-May), right on time for Rongali Bihu.",
     "look_for": "An orchid growing on tree branches, with long hanging spikes of small white-and-pink spotted flowers, like a fox's tail.",
     "uses": [
@@ -242,13 +363,16 @@
     ],
     "story": "Kopou phul is the state flower of Assam. No Bihu dancer's hair is complete without it.",
     "caution": "Do not pull it off wild trees; buy it or grow it.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "hollong",
     "assamese": "হোলোং",
     "roman": "hollong",
-    "aliases": ["holong", "hollong gos"],
+    "aliases": [
+      "holong",
+      "hollong gos"
+    ],
     "english": "Hollong",
     "scientific": "Dipterocarpus retusus",
     "kind": "tree",
@@ -260,17 +384,27 @@
     ],
     "story": "Hollong is the state tree of Assam; the oldest ones stand higher than everything else in the forest.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "simolu",
     "assamese": "শিমলু",
     "roman": "simolu",
-    "aliases": ["ximolu", "simul", "silk cotton", "red silk-cotton tree", "kapok"],
+    "aliases": [
+      "ximolu",
+      "simul",
+      "silk cotton",
+      "red silk-cotton tree",
+      "kapok"
+    ],
     "english": "Red silk-cotton tree",
     "scientific": "Bombax ceiba",
     "kind": "tree",
-    "months": [2, 3, 4],
+    "months": [
+      2,
+      3,
+      4
+    ],
     "season_note": "Big red flowers on bare branches in late winter and spring; cotton bursts out after.",
     "look_for": "A tall tree with spiky bumps on the trunk. In spring, large red flowers on leafless branches, full of birds.",
     "uses": [
@@ -278,17 +412,26 @@
     ],
     "story": "When the simolu flowers, every bird in the neighbourhood comes for the nectar. It is the loudest tree of spring.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "nahor",
     "assamese": "নাহৰ",
     "roman": "nahor",
-    "aliases": ["nahar", "ironwood", "ceylon ironwood", "nagkesar"],
+    "aliases": [
+      "nahar",
+      "ironwood",
+      "ceylon ironwood",
+      "nagkesar"
+    ],
     "english": "Ceylon ironwood",
     "scientific": "Mesua ferrea",
     "kind": "tree",
-    "months": [3, 4, 5],
+    "months": [
+      3,
+      4,
+      5
+    ],
     "season_note": "New red leaves and fragrant white flowers in spring.",
     "look_for": "Narrow leaves that come out bright red and droop, then turn dark green. White four-petalled flowers with a yellow centre.",
     "uses": [
@@ -297,13 +440,19 @@
     ],
     "story": "Nahor wood is so hard that old houses built with it are still standing.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "tamul",
     "assamese": "তামোল",
     "roman": "tamul",
-    "aliases": ["tamol", "areca", "areca nut", "betel nut", "supari"],
+    "aliases": [
+      "tamol",
+      "areca",
+      "areca nut",
+      "betel nut",
+      "supari"
+    ],
     "english": "Areca palm",
     "scientific": "Areca catechu",
     "kind": "palm",
@@ -316,13 +465,17 @@
     ],
     "story": "Offering tamul-paan is how an Assamese home says welcome; at Bihu it is given to elders when asking for their blessings.",
     "caution": "Chewing areca nut is linked to mouth cancer.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "paan",
     "assamese": "পাণ",
     "roman": "paan",
-    "aliases": ["pan", "betel leaf", "betel"],
+    "aliases": [
+      "pan",
+      "betel leaf",
+      "betel"
+    ],
     "english": "Betel leaf",
     "scientific": "Piper betle",
     "kind": "climber",
@@ -334,13 +487,19 @@
     ],
     "story": "Paan and tamul always go together, the way the vine climbs the palm.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "kol",
     "assamese": "কল",
     "roman": "kol",
-    "aliases": ["kol gos", "banana", "plantain", "bhim kol", "kol pat"],
+    "aliases": [
+      "kol gos",
+      "banana",
+      "plantain",
+      "bhim kol",
+      "kol pat"
+    ],
     "english": "Banana",
     "scientific": "Musa species",
     "kind": "herb",
@@ -354,17 +513,26 @@
     ],
     "story": "Seeded bhim kol was traditionally mashed and given as one of a baby's first foods.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "bah",
     "assamese": "বাঁহ",
     "roman": "bah",
-    "aliases": ["baah", "bamboo", "khorisa", "bah gos"],
+    "aliases": [
+      "baah",
+      "bamboo",
+      "khorisa",
+      "bah gos"
+    ],
     "english": "Bamboo",
     "scientific": "Bambusoideae",
     "kind": "grass",
-    "months": [6, 7, 8],
+    "months": [
+      6,
+      7,
+      8
+    ],
     "season_note": "Grows all year; new shoots come up in the monsoon.",
     "look_for": "Tall clumps of jointed green stems that creak in the wind. New shoots come up wrapped in brown sheaths.",
     "uses": [
@@ -374,13 +542,18 @@
     ],
     "story": "Almost every Assamese home has something made from bamboo, from the fish trap to the house itself.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "tokou",
     "assamese": "টকৌ",
     "roman": "tokou",
-    "aliases": ["toko", "tokou paat", "toko palm", "japi palm"],
+    "aliases": [
+      "toko",
+      "tokou paat",
+      "toko palm",
+      "japi palm"
+    ],
     "english": "Toko palm",
     "scientific": "Livistona jenkinsiana",
     "kind": "palm",
@@ -392,13 +565,17 @@
     ],
     "story": "Farmers wore japi made of tokou leaves to work in the fields under the sun and rain; now the japi is given to honour guests.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "som",
     "assamese": "চোম",
     "roman": "som",
-    "aliases": ["xom", "som gos", "muga tree"],
+    "aliases": [
+      "xom",
+      "som gos",
+      "muga tree"
+    ],
     "english": "Som tree",
     "scientific": "Persea bombycina",
     "kind": "tree",
@@ -410,13 +587,18 @@
     ],
     "story": "Muga, the golden silk of Assam, starts on som leaves. The colour of the silk comes from the worm, not dye.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "era",
     "assamese": "এৰা",
     "roman": "era",
-    "aliases": ["era gos", "eri", "castor", "castor plant"],
+    "aliases": [
+      "era gos",
+      "eri",
+      "castor",
+      "castor plant"
+    ],
     "english": "Castor plant",
     "scientific": "Ricinus communis",
     "kind": "shrub",
@@ -428,13 +610,19 @@
     ],
     "story": "Eri silk is spun from the cocoon after the moth has left, which is why some call it the gentlest silk.",
     "caution": "The seeds are poisonous. Never eat them.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "sasi",
     "assamese": "শাঁচি",
     "roman": "sasi",
-    "aliases": ["xasi", "sachi", "agar", "agarwood", "oud"],
+    "aliases": [
+      "xasi",
+      "sachi",
+      "agar",
+      "agarwood",
+      "oud"
+    ],
     "english": "Agarwood",
     "scientific": "Aquilaria malaccensis",
     "kind": "tree",
@@ -447,17 +635,27 @@
     ],
     "story": "Many old Assamese manuscripts were written on sasi-pat made from this tree's bark.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "dhan",
     "assamese": "ধান",
     "roman": "dhan",
-    "aliases": ["paddy", "rice", "dhaan", "sali dhan"],
+    "aliases": [
+      "paddy",
+      "rice",
+      "dhaan",
+      "sali dhan"
+    ],
     "english": "Rice paddy",
     "scientific": "Oryza sativa",
     "kind": "grass",
-    "months": [10, 11, 12, 1],
+    "months": [
+      10,
+      11,
+      12,
+      1
+    ],
     "season_note": "In Kati (October) the paddy is still green in the fields; the harvest comes before Magh Bihu.",
     "look_for": "Flooded or damp fields of green grass that turns golden as the grain fills.",
     "uses": [
@@ -465,17 +663,26 @@
     ],
     "story": "Kati Bihu, in October, is the quiet Bihu: the granary is nearly empty and the paddy is still growing, so families light lamps in the fields and pray for a good harvest.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "xoriyoh",
     "assamese": "সৰিয়হ",
     "roman": "xoriyoh",
-    "aliases": ["sorioh", "soriyoh", "mustard", "sarson"],
+    "aliases": [
+      "sorioh",
+      "soriyoh",
+      "mustard",
+      "sarson"
+    ],
     "english": "Mustard",
     "scientific": "Brassica species",
     "kind": "herb",
-    "months": [11, 12, 1],
+    "months": [
+      11,
+      12,
+      1
+    ],
     "season_note": "Sown after the paddy season; the fields turn bright yellow in winter.",
     "look_for": "Whole fields of small bright yellow four-petalled flowers.",
     "uses": [
@@ -484,17 +691,23 @@
     ],
     "story": "A winter drive through Assam goes through miles of yellow xoriyoh fields.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "lau",
     "assamese": "লাও",
     "roman": "lau",
-    "aliases": ["lao", "bottle gourd", "lauki"],
+    "aliases": [
+      "lao",
+      "bottle gourd",
+      "lauki"
+    ],
     "english": "Bottle gourd",
     "scientific": "Lagenaria siceraria",
     "kind": "climber",
-    "months": [4],
+    "months": [
+      4
+    ],
     "season_note": "A climbing vegetable; it has a special role on Goru Bihu in April.",
     "look_for": "A climbing vine on a bamboo frame or roof, with big soft leaves, white flowers and long pale-green gourds.",
     "uses": [
@@ -502,17 +715,22 @@
     ],
     "story": "On Goru Bihu, the cattle are bathed and fed pieces of lau and bengena (brinjal) while people sing \"Lau kha, bengena kha, bosore bosore barhi ja\": eat gourd, eat brinjal, grow bigger every year.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "dighloti",
     "assamese": "দিঘলতি",
     "roman": "dighloti",
-    "aliases": ["dighlati", "dighaloti"],
+    "aliases": [
+      "dighlati",
+      "dighaloti"
+    ],
     "english": "Dighloti (a Litsea shrub)",
     "scientific": "Litsea salicifolia",
     "kind": "shrub",
-    "months": [4],
+    "months": [
+      4
+    ],
     "season_note": "Its branches are cut for Goru Bihu in April.",
     "look_for": "A shrub with long, narrow, willow-like leaves.",
     "uses": [
@@ -520,13 +738,17 @@
     ],
     "story": "While swatting the cattle with dighloti on Goru Bihu, people chant \"Dighloti dighol paat, makhi mare zaat zaat\": the long dighloti leaf kills every kind of fly.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "haladhi",
     "assamese": "হালধি",
     "roman": "haladhi",
-    "aliases": ["halodhi", "haldi", "turmeric"],
+    "aliases": [
+      "halodhi",
+      "haldi",
+      "turmeric"
+    ],
     "english": "Turmeric",
     "scientific": "Curcuma longa",
     "kind": "herb",
@@ -538,13 +760,19 @@
     ],
     "story": "The Bihu morning bath with mah-haladhi is meant to start the new year clean and bright.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "bhedai_lota",
     "assamese": "ভেদাইলতা",
     "roman": "bhedai lota",
-    "aliases": ["bhedailota", "bhedeli lota", "skunkvine", "skunk vine", "gandhaprasarini"],
+    "aliases": [
+      "bhedailota",
+      "bhedeli lota",
+      "skunkvine",
+      "skunk vine",
+      "gandhaprasarini"
+    ],
     "english": "Skunkvine",
     "scientific": "Paederia foetida",
     "kind": "climber",
@@ -556,13 +784,19 @@
     ],
     "story": "It smells terrible when you crush it but tastes fine in curry; elders say the worse it smells, the better it is for the stomach.",
     "caution": "Traditional remedy only, not medical advice.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "manimuni",
     "assamese": "মানিমুনি",
     "roman": "manimuni",
-    "aliases": ["bor manimuni", "saru manimuni", "gotu kola", "centella", "indian pennywort"],
+    "aliases": [
+      "bor manimuni",
+      "saru manimuni",
+      "gotu kola",
+      "centella",
+      "indian pennywort"
+    ],
     "english": "Indian pennywort",
     "scientific": "Centella asiatica",
     "kind": "herb",
@@ -575,13 +809,19 @@
     ],
     "story": "Grandmothers sent children to pick manimuni from the edge of the pond for the evening pitika.",
     "caution": "Wash well if picked near drains.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "masundari",
     "assamese": "মচন্দৰী",
     "roman": "masundari",
-    "aliases": ["mosondori", "masandari", "fish mint", "houttuynia", "chameleon plant"],
+    "aliases": [
+      "mosondori",
+      "masandari",
+      "fish mint",
+      "houttuynia",
+      "chameleon plant"
+    ],
     "english": "Fish mint",
     "scientific": "Houttuynia cordata",
     "kind": "herb",
@@ -593,17 +833,28 @@
     ],
     "story": "Its smell surprises people the first time, but many Assamese homes keep a patch near the kitchen.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "dhekia",
     "assamese": "ঢেকীয়া",
     "roman": "dhekia",
-    "aliases": ["dhekia xaak", "dhekia shak", "fiddlehead", "vegetable fern"],
+    "aliases": [
+      "dhekia xaak",
+      "dhekia shak",
+      "fiddlehead",
+      "vegetable fern"
+    ],
     "english": "Vegetable fern",
     "scientific": "Diplazium esculentum",
     "kind": "fern",
-    "months": [3, 4, 5, 6, 7],
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
     "season_note": "Tender curled shoots in spring and the rains.",
     "look_for": "A fern in damp ground; the young shoots are tightly curled like a violin's head.",
     "uses": [
@@ -611,17 +862,27 @@
     ],
     "story": "Dhekia xaak is one of the first wild greens of spring that people go out to pick together.",
     "caution": "Only pick ferns you know well and always cook them; not all ferns are safe to eat.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "tenga_mora",
     "assamese": "টেঙামৰা",
     "roman": "tenga mora",
-    "aliases": ["tengamora", "roselle", "sorrel", "gongura"],
+    "aliases": [
+      "tengamora",
+      "roselle",
+      "sorrel",
+      "gongura"
+    ],
     "english": "Roselle",
     "scientific": "Hibiscus sabdariffa",
     "kind": "shrub",
-    "months": [8, 9, 10, 11],
+    "months": [
+      8,
+      9,
+      10,
+      11
+    ],
     "season_note": "Sour leaves through the rains; the red fleshy calyces come in autumn.",
     "look_for": "A reddish stem with lobed leaves; in autumn, fat deep-red cups below pale yellow flowers.",
     "uses": [
@@ -630,13 +891,18 @@
     ],
     "story": "Tenga mora means sour mora; a handful of leaves is enough to make the fish curry tangy.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "kolmou",
     "assamese": "কলমৌ",
     "roman": "kolmou",
-    "aliases": ["kolmou xaak", "kalmi", "water spinach", "kangkong"],
+    "aliases": [
+      "kolmou xaak",
+      "kalmi",
+      "water spinach",
+      "kangkong"
+    ],
     "english": "Water spinach",
     "scientific": "Ipomoea aquatica",
     "kind": "herb",
@@ -648,17 +914,25 @@
     ],
     "story": "Kolmou grows wherever there is still water, so it was always there when the market was far away.",
     "caution": "Do not pick from polluted water.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "jamu",
     "assamese": "জামু",
     "roman": "jamu",
-    "aliases": ["jamun", "java plum", "black plum"],
+    "aliases": [
+      "jamun",
+      "java plum",
+      "black plum"
+    ],
     "english": "Java plum",
     "scientific": "Syzygium cumini",
     "kind": "tree",
-    "months": [5, 6, 7],
+    "months": [
+      5,
+      6,
+      7
+    ],
     "season_note": "Fruits at the start of the monsoon.",
     "look_for": "A big shady tree with glossy leaves; the ground below is stained purple from fallen fruit.",
     "uses": [
@@ -666,17 +940,28 @@
     ],
     "story": "You can always tell who has been eating jamu: their tongues are purple.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "modhuri_am",
     "assamese": "মধুৰিআম",
     "roman": "modhuri am",
-    "aliases": ["modhuri", "madhuri am", "guava", "amrud"],
+    "aliases": [
+      "modhuri",
+      "madhuri am",
+      "guava",
+      "amrud"
+    ],
     "english": "Guava",
     "scientific": "Psidium guajava",
     "kind": "tree",
-    "months": [8, 9, 10, 11, 12],
+    "months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "season_note": "Fruits in the rains and again in winter.",
     "look_for": "A small tree with smooth, peeling, mottled bark and leaves with strong parallel veins.",
     "uses": [
@@ -684,17 +969,26 @@
     ],
     "story": "The modhuri tree is the first tree most children learn to climb because the bark is smooth and the branches are low.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "robab_tenga",
     "assamese": "ৰবাব টেঙা",
     "roman": "robab tenga",
-    "aliases": ["robab", "pomelo", "jambura"],
+    "aliases": [
+      "robab",
+      "pomelo",
+      "jambura"
+    ],
     "english": "Pomelo",
     "scientific": "Citrus maxima",
     "kind": "tree",
-    "months": [10, 11, 12, 1],
+    "months": [
+      10,
+      11,
+      12,
+      1
+    ],
     "season_note": "Fruits from autumn into winter.",
     "look_for": "A citrus tree with very large leaves that have winged stalks, and huge round green-yellow fruits.",
     "uses": [
@@ -702,17 +996,32 @@
     ],
     "story": "One robab tenga is big enough for the whole family to share in the winter sun.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "chah",
     "assamese": "চাহ",
     "roman": "chah",
-    "aliases": ["sah", "tea", "assam tea", "tea bush"],
+    "aliases": [
+      "sah",
+      "tea",
+      "assam tea",
+      "tea bush"
+    ],
     "english": "Assam tea",
     "scientific": "Camellia sinensis var. assamica",
     "kind": "shrub",
-    "months": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
     "season_note": "Picking runs from spring flush to autumn.",
     "look_for": "Flat-topped hedges at waist height in rows, shaded by tall trees. Leaves are glossy with serrated edges.",
     "uses": [
@@ -720,17 +1029,26 @@
     ],
     "story": "Tea grew wild in Assam long before the gardens; the Singpho people were brewing it before the British arrived.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "padum",
     "assamese": "পদুম",
     "roman": "padum",
-    "aliases": ["podum", "lotus", "padma"],
+    "aliases": [
+      "podum",
+      "lotus",
+      "padma"
+    ],
     "english": "Lotus",
     "scientific": "Nelumbo nucifera",
     "kind": "aquatic",
-    "months": [6, 7, 8, 9],
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
     "season_note": "Flowers through the monsoon.",
     "look_for": "Large round leaves held above the water, so water rolls off them like beads. Pink or white flowers.",
     "uses": [
@@ -738,13 +1056,18 @@
     ],
     "story": "Children pour water on lotus leaves to watch it roll off like silver beads.",
     "caution": null,
-    "verified": false
+    "verified": true
   },
   {
     "id": "kosu",
     "assamese": "কচু",
     "roman": "kosu",
-    "aliases": ["kochu", "taro", "colocasia", "arbi"],
+    "aliases": [
+      "kochu",
+      "taro",
+      "colocasia",
+      "arbi"
+    ],
     "english": "Taro",
     "scientific": "Colocasia esculenta",
     "kind": "herb",
@@ -756,17 +1079,24 @@
     ],
     "story": "Cooks add tenga, something sour, to kosu so it does not make the throat itch.",
     "caution": "Raw kosu makes the mouth and throat itch. Always cook it well.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "nim",
     "assamese": "নিম",
     "roman": "nim",
-    "aliases": ["neem", "nim pat", "neem tree"],
+    "aliases": [
+      "neem",
+      "nim pat",
+      "neem tree"
+    ],
     "english": "Neem",
     "scientific": "Azadirachta indica",
     "kind": "tree",
-    "months": [3, 4],
+    "months": [
+      3,
+      4
+    ],
     "season_note": "Tender new leaves come in spring.",
     "look_for": "A shady tree with feathery leaves made of many curved, toothed leaflets.",
     "uses": [
@@ -775,17 +1105,26 @@
     ],
     "story": "Elders say a bitter mouthful at the start of the meal is good for the body.",
     "caution": "Traditional use only; neem oil is not for eating.",
-    "verified": false
+    "verified": true
   },
   {
     "id": "bel",
     "assamese": "বেল",
     "roman": "bel",
-    "aliases": ["bael", "wood apple", "stone apple", "bengal quince"],
+    "aliases": [
+      "bael",
+      "wood apple",
+      "stone apple",
+      "bengal quince"
+    ],
     "english": "Bael",
     "scientific": "Aegle marmelos",
     "kind": "tree",
-    "months": [3, 4, 5],
+    "months": [
+      3,
+      4,
+      5
+    ],
     "season_note": "Fruits ripen in the hot months.",
     "look_for": "A thorny tree with three leaflets per leaf; hard round fruits with a wooden shell.",
     "uses": [
@@ -794,6 +1133,6 @@
     ],
     "story": "Bel fruit is so hard that it has to be cracked open on a stone.",
     "caution": "Thorny branches.",
-    "verified": false
+    "verified": true
   }
 ]

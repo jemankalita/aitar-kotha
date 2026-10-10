@@ -143,6 +143,25 @@ html, body { overflow-x: clip; }
   animation: card-in 280ms cubic-bezier(.2, .8, .2, 1);
 }
 .card-head { padding: 14px 20px 4px; }
+
+/* ---------- plant photo ---------- */
+.plant-photo { margin: 0; position: relative; background: var(--paddy-tint); }
+.plant-photo img {
+  display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover;
+  outline: 1px solid rgb(0 0 0 / 8%); outline-offset: -1px;
+}
+.plant-photo figcaption {
+  position: absolute; inset: auto 0 0; padding: 18px 12px 6px;
+  background: linear-gradient(transparent, rgb(0 0 0 / 55%));
+  font-size: 11px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.plant-photo figcaption a { color: #fff; text-decoration: none; }
+.plant-photo figcaption a:hover { text-decoration: underline; }
+.specimen.has-photo { padding-top: 10px; }
+.specimen-photo {
+  width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 9px; margin-bottom: 6px;
+  outline: 1px solid rgb(0 0 0 / 8%); outline-offset: -1px;
+}
 .kind {
   display: inline-flex; align-items: center; gap: 6px;
   font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--paddy);

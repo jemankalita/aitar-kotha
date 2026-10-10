@@ -22,6 +22,7 @@ from pydantic import BaseModel, Field, field_validator
 
 from aita.knowledge import Plant, assamese_month, in_season, load_plants, load_translations, plant_by_id
 from aita.llm import Endpoint, Identification, LLMError, chat, endpoint_from_env, identify_plant
+from aita.plant_images import image_view, load_image_credits
 from aita.persona import build_messages, compose_answer, season_answer, unknown_answer
 from aita.retrieval import find_plants
 from aita.voice import VoiceConfig, VoiceError, load_env_file, speech_text, synthesize, voice_from_env
@@ -209,12 +210,14 @@ def create_app(
     voice: VoiceConfig | None = None,
     speak_fn: SpeakFn = synthesize,
     audio_dir: Path = DEFAULT_AUDIO_DIR,
+    images: Mapping[str, dict[str, str]] | None = None,
 ) -> FastAPI:
     plant_tuple = tuple(plants)
     assamese = dict(translations or {})
+    photos = dict(images or {})
 
     def view(plant: Plant) -> dict[str, Any]:
-        return {**plant.to_dict(), "as": assamese.get(plant.id)}
+        return {**plant.to_dict(), "as": assamese.get(plant.id), "image": image_view(photos.get(plant.id))}
 
     app = FastAPI(title="Aitar Kotha", description="An Assamese plant field guide that talks like your grandmother.")
     _register_reads(app, plant_tuple, view, story, vision, voice)
@@ -237,4 +240,5 @@ def build_default_app() -> FastAPI:
     )
     plants = load_plants()
     translations = load_translations(plants=plants)
-    return create_app(plants, story=story, vision=vision, translations=translations, voice=voice)
+    images = load_image_credits(plants)
+    return create_app(plants, story=story, vision=vision, translations=translations, voice=voice, images=images)
