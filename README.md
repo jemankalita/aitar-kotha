@@ -19,6 +19,18 @@ Closed models know "Indian jujube". They rarely know **bogori**, never know that
 - **Run it on your own machine**: export the adapter and serve it with Ollama or llama.cpp; no account and no per-question cost.
 - **Keep working with no signal**: the app falls back to the family notes saved on the phone.
 
+## Results
+
+Qwen3.5-4B, LoRA rank 32, 96 steps on Tinker. Tested on 172 held-out questions, with no family notes given to either model:
+
+| | Base Qwen3.5-4B | Aita (fine-tuned) |
+|---|---|---|
+| Assamese script name | 31% | **77%** |
+| Roman Assamese name | 42% | **78%** |
+| Scientific name | 40% | **85%** |
+
+The base model reasons out loud and answers were capped at 400 tokens, so its score is somewhat pessimistic. Photo identification with Gemma 3 4B on a laptop was right on 4 of 6 test photos, at about 20–25 s each.
+
 ## What's inside
 
 | Path | What it does |
